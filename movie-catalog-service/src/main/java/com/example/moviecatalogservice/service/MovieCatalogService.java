@@ -2,12 +2,14 @@ package com.example.moviecatalogservice.service;
 
 import com.example.moviecatalogservice.dto.MovieInfoDto;
 import com.example.moviecatalogservice.entity.MovieInfo;
+import com.example.moviecatalogservice.exception.MovieNotFoundException;
 import com.example.moviecatalogservice.repo.MovieCatalogRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -30,11 +32,25 @@ public class MovieCatalogService {
         return allMovieDtos;
     }
 
+    public MovieInfoDto getMoviePathById(Long movieId)
+    {   Optional<MovieInfo> movieFound = movieCatalogRepository.findById(movieId);
+        if (movieFound.isEmpty()) {
+            throw new MovieNotFoundException(movieId);
+        }
+
+        return MovieInfoDto.builder().id(movieFound.get().getId())
+                        .movieName(movieFound.get().getMovieName())
+                        .movieDescription(movieFound.get().getMovieDescription())
+                        .rating(movieFound.get().getRating())
+                        .path(movieFound.get().getPath()).build();
+    }
+
     private MovieInfoDto mapEntity_to_Dto(MovieInfo inputEntity)
     {
          return MovieInfoDto.builder().id(inputEntity.getId())
                  .movieName(inputEntity.getMovieName())
                  .movieDescription(inputEntity.getMovieDescription())
+                 .path(inputEntity.getPath())
                  .rating(inputEntity.getRating()).build();
     }
 
@@ -43,6 +59,7 @@ public class MovieCatalogService {
         return MovieInfo.builder().id(inputDto.getId())
                 .movieName(inputDto.getMovieName())
                 .movieDescription(inputDto.getMovieDescription())
+                .path(inputDto.getPath())
                 .rating(inputDto.getRating()).build();
     }
 }

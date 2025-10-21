@@ -1,46 +1,47 @@
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('Inception', 'A thief steals corporate secrets through dream-sharing technology.', 9);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('The Dark Knight', 'Batman faces the Joker in Gotham City.', 10);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('Interstellar', 'A team travels through a wormhole to find a new home for humanity.', 9);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('The Matrix', 'A hacker learns about the true nature of his reality.', 9);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('Avengers: Endgame', 'The Avengers assemble to undo Thanos’ actions.', 8);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('Titanic', 'A romance unfolds aboard the doomed ship.', 8);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('Gladiator', 'A betrayed general seeks revenge against the emperor.', 9);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('The Shawshank Redemption', 'Two imprisoned men bond over years of confinement.', 10);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('Forrest Gump', 'The life journey of a simple but kind-hearted man.', 9);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('Fight Club', 'An office worker and soap maker form an underground fight club.', 9);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('The Godfather', 'A mafia patriarch transfers control to his son.', 10);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('The Godfather Part II', 'The Corleone family’s saga continues.', 10);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('Pulp Fiction', 'Interwoven stories of crime and redemption in Los Angeles.', 9);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('The Lion King', 'A lion cub must embrace his destiny as king.', 8);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('Avatar', 'A marine on an alien planet becomes torn between two worlds.', 8);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('The Avengers', 'Earth’s mightiest heroes unite against a global threat.', 8);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('Iron Man', 'A billionaire builds a high-tech suit to fight evil.', 8);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('Doctor Strange', 'A surgeon discovers the mystical arts after an accident.', 7);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('Spider-Man: No Way Home', 'Spider-Man seeks help from Doctor Strange after his identity is revealed.', 9);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('Black Panther', 'The king of Wakanda defends his nation and legacy.', 8);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('Guardians of the Galaxy', 'A band of misfits must save the galaxy.', 8);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('The Prestige', 'Two magicians engage in a deadly rivalry.', 9);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('Memento', 'A man with short-term memory loss seeks his wife’s killer.', 9);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('The Departed', 'An undercover cop and a mole in the police force cross paths.', 9);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('Inglourious Basterds', 'Allied soldiers plot to assassinate Nazi leaders.', 8);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('Django Unchained', 'A freed slave teams up with a bounty hunter.', 9);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('The Wolf of Wall Street', 'The rise and fall of a corrupt stockbroker.', 8);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('The Social Network', 'The story behind the creation of Facebook.', 8);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('Whiplash', 'A drummer strives for greatness under an abusive mentor.', 9);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('La La Land', 'A jazz musician and actress fall in love in LA.', 8);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('The Revenant', 'A frontiersman seeks revenge after being left for dead.', 8);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('Mad Max: Fury Road', 'In a desert wasteland, rebels fight for freedom.', 9);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('Parasite', 'A poor family infiltrates a wealthy household.', 10);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('Joker', 'A mentally troubled man turns to crime and chaos.', 9);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('Oppenheimer', 'The story of the father of the atomic bomb.', 9);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('Barbie', 'A doll enters the real world to discover herself.', 7);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('Dune', 'A noble family becomes embroiled in a war for a desert planet.', 9);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('The Batman', 'Batman uncovers corruption while hunting the Riddler.', 8);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('Tenet', 'A secret agent manipulates time to prevent global annihilation.', 8);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('Shutter Island', 'A U.S. Marshal investigates a psychiatric facility.', 8);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('The Irishman', 'A mob hitman reflects on his life.', 8);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('No Country for Old Men', 'A hunter finds a briefcase full of cash and chaos follows.', 9);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('The Green Mile', 'A prison guard discovers a man with miraculous powers.', 9);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('Se7en', 'Two detectives hunt a serial killer who uses the seven deadly sins.', 9);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('The Silence of the Lambs', 'An FBI trainee seeks help from a cannibal to catch a killer.', 9);
-INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING) VALUES ('Saving Private Ryan', 'A group of soldiers go behind enemy lines to rescue one man.', 10);
+INSERT INTO MOVIE_INFO (MOVIE_NAME, MOVIE_DESC, MOVIE_RATING, MOVIE_PATH) VALUES
+('Inception', 'A thief steals corporate secrets through dream-sharing technology.', 9, 'Inception.mp4'),
+('The Dark Knight', 'Batman faces the Joker in Gotham City.', 10, 'TheDarkKnight.mp4'),
+('Interstellar', 'A team travels through a wormhole to find a new home for humanity.', 9, 'Interstellar.mp4'),
+('The Matrix', 'A hacker learns about the true nature of his reality.', 9, 'TheMatrix.mp4'),
+('Avengers: Endgame', 'The Avengers assemble to undo Thanos’ actions.', 8, 'AvengersEndgame.mp4'),
+('Titanic', 'A romance unfolds aboard the doomed ship.', 8, 'Titanic.mp4'),
+('Gladiator', 'A betrayed general seeks revenge against the emperor.', 9, 'Gladiator.mp4'),
+('The Shawshank Redemption', 'Two imprisoned men bond over years of confinement.', 10, 'ShawshankRedemption.mp4'),
+('Forrest Gump', 'The life journey of a simple but kind-hearted man.', 9, 'ForrestGump.mp4'),
+('Fight Club', 'An office worker and soap maker form an underground fight club.', 9, 'FightClub.mp4'),
+('The Godfather', 'A mafia patriarch transfers control to his son.', 10, 'Godfather.mp4'),
+('The Godfather Part II', 'The Corleone family’s saga continues.', 10, 'GodfatherPart2.mp4'),
+('Pulp Fiction', 'Interwoven stories of crime and redemption in Los Angeles.', 9, 'PulpFiction.mp4'),
+('The Lion King', 'A lion cub must embrace his destiny as king.', 8, 'LionKing.mp4'),
+('Avatar', 'A marine on an alien planet becomes torn between two worlds.', 8, 'Avatar.mp4'),
+('The Avengers', 'Earth’s mightiest heroes unite against a global threat.', 8, 'Avengers.mp4'),
+('Iron Man', 'A billionaire builds a high-tech suit to fight evil.', 8, 'IronMan.mp4'),
+('Doctor Strange', 'A surgeon discovers the mystical arts after an accident.', 7, 'DoctorStrange.mp4'),
+('Spider-Man: No Way Home', 'Spider-Man seeks help from Doctor Strange after his identity is revealed.', 9, 'SpiderManNoWayHome.mp4'),
+('Black Panther', 'The king of Wakanda defends his nation and legacy.', 8, 'BlackPanther.mp4'),
+('Guardians of the Galaxy', 'A band of misfits must save the galaxy.', 8, 'GuardiansOfTheGalaxy.mp4'),
+('The Prestige', 'Two magicians engage in a deadly rivalry.', 9, 'Prestige.mp4'),
+('Memento', 'A man with short-term memory loss seeks his wife’s killer.', 9, 'Memento.mp4'),
+('The Departed', 'An undercover cop and a mole in the police force cross paths.', 9, 'Departed.mp4'),
+('Inglourious Basterds', 'Allied soldiers plot to assassinate Nazi leaders.', 8, 'InglouriousBasterds.mp4'),
+('Django Unchained', 'A freed slave teams up with a bounty hunter.', 9, 'DjangoUnchained.mp4'),
+('The Wolf of Wall Street', 'The rise and fall of a corrupt stockbroker.', 8, 'WolfOfWallStreet.mp4'),
+('The Social Network', 'The story behind the creation of Facebook.', 8, 'SocialNetwork.mp4'),
+('Whiplash', 'A drummer strives for greatness under an abusive mentor.', 9, 'Whiplash.mp4'),
+('La La Land', 'A jazz musician and actress fall in love in LA.', 8, 'LaLaLand.mp4'),
+('The Revenant', 'A frontiersman seeks revenge after being left for dead.', 8, 'Revenant.mp4'),
+('Mad Max: Fury Road', 'In a desert wasteland, rebels fight for freedom.', 9, 'MadMaxFuryRoad.mp4'),
+('Parasite', 'A poor family infiltrates a wealthy household.', 10, 'Parasite.mp4'),
+('Joker', 'A mentally troubled man turns to crime and chaos.', 9, 'Joker.mp4'),
+('Oppenheimer', 'The story of the father of the atomic bomb.', 9, 'Oppenheimer.mp4'),
+('Barbie', 'A doll enters the real world to discover herself.', 7, 'Barbie.mp4'),
+('Dune', 'A noble family becomes embroiled in a war for a desert planet.', 9, 'Dune.mp4'),
+('The Batman', 'Batman uncovers corruption while hunting the Riddler.', 8, 'Batman.mp4'),
+('Tenet', 'A secret agent manipulates time to prevent global annihilation.', 8, 'Tenet.mp4'),
+('Shutter Island', 'A U.S. Marshal investigates a psychiatric facility.', 8, 'ShutterIsland.mp4'),
+('The Irishman', 'A mob hitman reflects on his life.', 8, 'Irishman.mp4'),
+('No Country for Old Men', 'A hunter finds a briefcase full of cash and chaos follows.', 9, 'NoCountryForOldMen.mp4'),
+('The Green Mile', 'A prison guard discovers a man with miraculous powers.', 9, 'GreenMile.mp4'),
+('Se7en', 'Two detectives hunt a serial killer who uses the seven deadly sins.', 9, 'Se7en.mp4'),
+('The Silence of the Lambs', 'An FBI trainee seeks help from a cannibal to catch a killer.', 9, 'SilenceOfTheLambs.mp4'),
+('Saving Private Ryan', 'A group of soldiers go behind enemy lines to rescue one man.', 10, 'SavingPrivateRyan.mp4');

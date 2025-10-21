@@ -1,6 +1,5 @@
-package com.example.moviecatalogservice.dto;
+package com.example.moviestreamingservice.dto;
 
-import jakarta.persistence.Column;
 import lombok.*;
 
 @Getter
