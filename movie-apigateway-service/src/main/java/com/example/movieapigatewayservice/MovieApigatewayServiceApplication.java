@@ -1,4 +1,4 @@
-package com.example.moviestreamingservice;
+package com.example.movieapigatewayservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class MovieStreamingServiceApplication {
+public class MovieApigatewayServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MovieStreamingServiceApplication.class, args);
+        SpringApplication.run(MovieApigatewayServiceApplication.class, args);
     }
 
 }
